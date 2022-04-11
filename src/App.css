@@ -20,9 +20,10 @@ font-size:60px;
 }
 
 .registerBox{
+  position: relative;
   margin-left: 540px;
   margin-top: 91px;
-  height:61px;
+  height:600px;
   width:351px;
   background-color: blue;
   
@@ -35,6 +36,12 @@ font-size:60px;
   margin-left: 903px;
 
 
+}
+
+.email{
+  position: relative;
+  height: 200px;
+  bottom:200px;
 }
 
 
