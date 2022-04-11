@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import AboutUs from './component/AboutUs';
+
 
 
 
@@ -11,7 +13,7 @@ function App() {
         <h3>Home</h3> 
       </div>
     <div className='register'>
-      <h1>Register</h1>
+      <h1 className='res'>Register</h1>
     </div>
     
     <div>
@@ -29,6 +31,8 @@ function App() {
         </div>
        
       </div>
+      <AboutUs/>
+      { /*src="/Pictures/test.jpg"*/}
 
       
     </div>
