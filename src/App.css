@@ -1,47 +1,82 @@
+.dayz{
+ 
 
+  
+  background-image: url("../public/Pictures/dayZ.png"),linear-gradient(360deg, #23262c 30%, rgba(23, 26, 33, 0.6) 100%);
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ /* background: linear-gradient(360deg, #171A21 59%, rgba(23, 26, 33, 0.6) 100%);*/
+  background-blend-mode: multiply;
+  
+
+  
+}
 
 .HomePage{
  Width :93px;
   height :23px;
-Top :44px;
+Top :44529px;
+  height: 1023px;
+  left: -38px;
+  top: 1px;
+
+  
+
 Left :84px;
 }
 
 .register{
 
 
-background-color: black;
+
 text-align: center;
 color: azure;
-font-size:60px;
+font-size:25px;
 
 
 
 }
 
+
+
 .registerBox{
-  position: relative;
-  margin-left: 540px;
-  margin-top: 91px;
-  height:600px;
-  width:351px;
-  background-color: blue;
+  margin: auto;
+  width: 50%;
+  border: 3px solid whitesmoke;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7mm;
   
 }
 
 .KnightsGame{
-  width: 300px;
-  height: 230px;
-  margin-top: 68px;
-  margin-left: 903px;
-
-
+  position: relative;
+  left: 600px;
+  color: #F1B722;
 }
 
 .email{
-  position: relative;
-  height: 200px;
-  bottom:200px;
+  text-align: left;
+  font-size: x-small;
+  padding-top: 130px;
+  padding-left: 130px;
+  color:whitesmoke
+}
+
+.passWord{
+  text-align: left;
+  padding-left: 130px;
+  
+  padding-bottom: 130px;
+  font-size: x-small;
+  color:whitesmoke
 }
 
 
@@ -85,4 +120,43 @@ font-size:60px;
   to {
     transform: rotate(360deg);
   }
+}
+
+.AboutUsBox {
+  position: absolute;
+  width: 1470px;
+  height: 103px;
+  left: 0px;
+  top: 914px;
+  background: #1B2236;
+
+}
+
+.RememberMe{
+  position: relative;
+  bottom:130px;
+  left:130px;
+  font-size: x-small;
+  display: flex;
+  
+  
+  
+
+  /*font-family: "Outfit";
+
+  font-weight: 400;
+  font-size: 18px;
+  */
+ 
+  color: #FFFFFF
+  
+
+}
+
+.RememberButton{
+  position: relative;
+  left:5px;
+  top:13px;
+  width: 15px;
+  height: 15px;
 }

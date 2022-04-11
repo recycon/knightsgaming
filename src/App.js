@@ -5,10 +5,11 @@ import AboutUs from './component/AboutUs';
 
 
 
-
 function App() {
   return (
-    <div>
+       
+    
+    <div className='dayz'>
       <div clasName='HomePage'>
         <h3>Home</h3> 
       </div>
@@ -21,14 +22,20 @@ function App() {
         <h3 className='KnightsGame'>KnightsGame</h3>
 
         <div className='email'>
-          <h3>Please Enter an email adress </h3>
-        <input type="email"/>
+          <h3 className="Enter">Please Enter an email adress </h3>
+        <input type="email" maxlength="70" size="70"/>
         </div>
         
         <div className='passWord'>
-          <h3>Please Enter a password </h3>
-        <input type="text"/>
+          <h3 className="Enter">Please Enter a password </h3>
+        <input type="text" maxlength="70" size="70"/>
         </div>
+        
+        <div className="RememberMe">
+          <h3>Remember Me</h3> 
+        <button class="RememberButton" type="checkbox" ></button>
+        </div>
+    
        
       </div>
       <AboutUs/>
@@ -36,6 +43,9 @@ function App() {
 
       
     </div>
+    <div className='AboutUsBox'>
+      </div>
+
     
     
     </div>

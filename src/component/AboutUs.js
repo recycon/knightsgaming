@@ -1,9 +1,10 @@
 import React from "react";
+import '../App.css';
 
 
 function AboutUs(){
     return (
-        <div>
+        <div className="AboutUsBox">
            <button className="AboutUsBtn">About Us</button>
         </div>
     )
