@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.OverLappingImage{
+    
+
+
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 2px;
+
+background-image: url("/public/Pictures/wow.jpg"),linear-gradient(360deg, #171A21 60%, rgba(23, 26, 33, 0.6) 100%);
+
+
+
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: multiply;
+}
+
+
+.wow{
+
+    
+  /* Full height */
+  
+  
+  
+    
+  
+  
+
+ font-family:'Outfit';
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+
+.HomePage{
+    position: absolute;
+    width: 103px;
+    height: 25px;
+    left: 10px;
+    top: 10px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    
+
+
+}
+
+.flexDem{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute;
+    left: 1100px;
+    top:200px;
+    color:#F1B722
+    
+}
+
+.inputs{
+     width: 350px;
+     margin: 25px;
+     position: relative;
+     right: 30px;
+     height: 60px;
+     border-radius: 0.3cm;
+}
+
+h1{
+    position: relative;
+    top:25px;
+    font-size: 45px;
+    font-family: 'Poppins';
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 3;
+}
+
+
+
+
+ 
+.KnightsGames{
+    
+    position: absolute;
+    width: 261px;
+    height: 50px;
+    left: 100px;
+    top: 200px;
+
+    font-family: 'Outfit';
+    font-style:normal;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    
+    
+
+}
+
+.Slogan{
+
+position: absolute;
+width: 177px;
+height: 25px;
+left: 100x;
+top: 150px;
+
+font-family: 'Outfit', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+color: #F1B722
+
+}

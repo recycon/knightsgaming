@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+
+
+
 .dayz{
  
 
@@ -25,6 +30,7 @@ Top :44529px;
   height: 1023px;
   left: -38px;
   top: 1px;
+  font-family:'Outfit';
 
   
 
@@ -60,6 +66,7 @@ font-size:25px;
   position: relative;
   left: 600px;
   color: #F1B722;
+  font-family: 'Outfit';
 }
 
 .email{
@@ -67,7 +74,10 @@ font-size:25px;
   font-size: x-small;
   padding-top: 130px;
   padding-left: 130px;
+  
+  font-family:'Outfit';
   color:whitesmoke
+
 }
 
 .passWord{
@@ -76,7 +86,8 @@ font-size:25px;
   
   padding-bottom: 130px;
   font-size: x-small;
-  color:whitesmoke
+  color:whitesmoke;
+  font-family:'Outfit';
 }
 
 
@@ -139,15 +150,7 @@ font-size:25px;
   font-size: x-small;
   display: flex;
   
-  
-  
-
-  /*font-family: "Outfit";
-
-  font-weight: 400;
-  font-size: 18px;
-  */
- 
+  font-family: 'Outfit';
   color: #FFFFFF
   
 
