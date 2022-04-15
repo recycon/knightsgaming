@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+nav{
+    display: flex;
+    
+}
+
+.yo{
+    position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 2px;
+
+background-image: url("/public/Pictures/R.jpg"),linear-gradient(360deg, #171A21 60%, rgba(23, 26, 33, 0.6) 100%);
+
+
+
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: multiply;
+}
+
+.nav-bar{
+    padding: 25px;
+    color: white;
+}
+
+input{
+    height: 5px;
+
+    
+}
+
+
+#KH{
+    width: 118px;
+    height: 23px;
+    left: 10px;
+    top: 1px;
+
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #F1B722;
+
+}
+
+.nav-bar{
+
+
+
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.Box{
+    background-color: red;
+
+}
+.littleBox{
+    background-color: aqua;
+}
