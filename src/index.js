@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoginPage from './pages/login';
 import Games from './pages/games'
+import API from './api'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Games />
+    <API />
   </React.StrictMode>,
   document.getElementById('root')
 );
