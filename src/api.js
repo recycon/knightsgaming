@@ -28,11 +28,11 @@ function API(){
 
 
     useEffect(()=>{
-        fetch("/games",{    
+        fetch("https://recycon.herokuapp.com/https://api.igdb.com/v4/games",{    
         method : 'POST',
         headers : {"Access-Control-Allow-Origin": "*",     "Content-Type":"application/json","Client-ID": "qyouji2kmr05hxuoy8a2cfbrxtrcbu", "Authorization": `Bearer xxx9ec0crqvrskynpk4bmqmb97es2g`}
         ,body: "fields name;"
-    })
+    }).then(response=>response.json()).then(data=>setGames(data))
     },[])
 
     console.log(games);
