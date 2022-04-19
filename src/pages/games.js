@@ -1,6 +1,7 @@
 import React from "react";
 import "./gg.css";
 import AboutUs from "../component/AboutUs";
+import NavBar from "../component/navBar";
 
 
 function Games(){
@@ -18,18 +19,7 @@ function Games(){
             
         
 
-        <nav >
-            
-            <h3 className="nav-bar" id="KH"> KnightsGame</h3>
-            <input   className="nav-bar"type="search" id="SB"/>
-            <h3 className="nav-bar">Bookmarked</h3>
-            <h3 className="nav-bar">Caterogies</h3>
-            
-
-
-
-        </nav>
-
+       <NavBar/>
         <div className="Box">
             <div className="littleBox">
                 <h4>name</h4>
