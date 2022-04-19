@@ -6,10 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import LoginPage from './pages/login';
 import Games from './pages/games'
 import API from './api'
+import GameDetail from './pages/gameDetail';
 
 ReactDOM.render(
   <React.StrictMode>
-    <API />
+    <GameDetail/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -27,6 +27,11 @@ function API(){
     //const clientID=qyouji2kmr05hxuoy8a2cfbrxtrcbu;
 
 
+    /*
+fields name,summary,url;
+limit 20;*/
+
+
     useEffect(()=>{
         fetch("https://recycon.herokuapp.com/https://api.igdb.com/v4/games",{    
         method : 'POST',

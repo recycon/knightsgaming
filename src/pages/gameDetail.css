@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.OverlappingPic{
+ 
+        position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 2px;
+    
+    background-image: linear-gradient(360deg, #171A21 60%, rgba(23, 26, 33, 0.6) 100%);
+    
+    
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    }
+
+    .Description{
+        height: 100px;
+        width: 600px;
+        border-color: white;
+        background-color: aqua;
+    }
+
+    .CoverPhoto{
+        height: 250px;
+        width: 150px;
+        border-color: white;
+        background-color: aqua;
+
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+
+    .MainPic{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+        background-color: aqua;
+        width: 400px;
+        height: 400px;
+
+    }
+    #smalltext{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+
+    }
+
+    .RelevantInfo{
+        height: 250px;
+        width: 150px;
+        border-color: white;
+        background-color: aqua;
+
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .Main{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+
+    .Main2{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .flex{
+        display: flex;
+        flex-direction: row;
+    }
