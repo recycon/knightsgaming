@@ -10,7 +10,7 @@ import GameDetail from './pages/gameDetail';
 
 ReactDOM.render(
   <React.StrictMode>
-    <GameDetail/>
+    <Games/>
   </React.StrictMode>,
   document.getElementById('root')
 );
