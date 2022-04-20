@@ -6,6 +6,9 @@ import AboutUs from "../component/AboutUs";
 
 
 function GameDetail(){
+
+    //relese date -unix 
+    //genre -
     
 
 
