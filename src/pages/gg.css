@@ -30,12 +30,8 @@ background-blend-mode: multiply;
     color: white;
 }
 
-#SB{
-    height: 1px;
-    
 
-    
-}
+
 
 
 #KH{
@@ -58,7 +54,7 @@ background-blend-mode: multiply;
 
 
 
-
+    align-items: center;
     font-family: 'Outfit';
     font-style: normal;
     font-size: 18px;
@@ -68,52 +64,44 @@ background-blend-mode: multiply;
 
 }
 .hi{
-    color:red;
+    color:whitesmoke;
 }
 
-.Box{
-    
-    width: 193px;
-    height: 248px;
-    
-    box-sizing: border-box;
-    border: 2px solid #FFFFFF;
-
-}
-.littleBox{
-    width: 193px;
-    height: 41px;
-    top: 150px;
-
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 400;
-    font-size: px;
-    line-height: 15px;
-    text-align: left;
-    color: #FFFFFF;
+.game-contain {
     display: flex;
+    flex-direction: column;
     
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hi:hover {
+    transform: scale(1.05);
+    color: #F1B722;
+  }
+  
+  
 
 
+
+  .card-list {
+    width: 85vw;
     
-}
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+  }
 
-#rating{
-
-position: relative;
-left:90px;
-top: 150px;
-font-family: 'Outfit';
-font-style: normal;
-font-weight: 400;
-font-size: 6px;
-line-height: 15px;
-text-align: right;
-color: #F1B722;
-}
-
-
+  .game-spot{
+      position: relative;
+      align-items: center;
+  }
+  

@@ -9,7 +9,8 @@
   
   background-image: url("../public/Pictures/dayZ.png"),linear-gradient(360deg, #23262c 30%, rgba(23, 26, 33, 0.6) 100%);
   /* Full height */
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -31,11 +32,18 @@ Top :44529px;
   left: -38px;
   top: 1px;
   font-family:'Outfit';
+  color: #F1B722;
 
   
 
 Left :84px;
 }
+
+h1{
+  color: #F1B722;
+}
+
+
 
 .register{
 
@@ -94,44 +102,9 @@ font-size:25px;
 
 
 
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .AboutUsBox {
   position: absolute;
@@ -149,17 +122,24 @@ font-size:25px;
   left:130px;
   font-size: x-small;
   display: flex;
+  flex-direction: column;
   
   font-family: 'Outfit';
-  color: #FFFFFF
+  color: #FFFFFF;
+  
   
 
+}
+.New{
+  position: relative;
+  top:10px;
 }
 
 .RememberButton{
   position: relative;
-  left:5px;
+  left:0px;
   top:13px;
-  width: 15px;
-  height: 15px;
+  width: 60px;
+  height: 40px;
+  
 }

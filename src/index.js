@@ -7,10 +7,20 @@ import LoginPage from './pages/login';
 import Games from './pages/games'
 import API from './api'
 import GameDetail from './pages/gameDetail';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Routes from './Routes';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Games/>
+    <Router>
+    <Routes/>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

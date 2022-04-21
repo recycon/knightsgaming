@@ -1,6 +1,7 @@
 import React from "react";
 import AboutUs from "../component/AboutUs";
 import "./login.css"
+import {Link, useLocation} from "react-router-dom"
 
 
 function LoginPage(){
@@ -14,7 +15,7 @@ function LoginPage(){
         < div className="wow">
     
     <div className="HomePage">
-        <h3>Home Page</h3>
+        <Link to="/games"><h3 style={{color:"gold"}}>KnightsGame</h3></Link>
         </div>
 
         <div className="flexDem">
@@ -33,13 +34,14 @@ function LoginPage(){
         <h1 className="LoginT">Login</h1>
         <input className="inputs" type="email" placeholder="Email" size="3" maxlength="4"/>
         <input className="inputs" type="text" placeholder="Password" size="3" maxlength="4"/>
+       <Link to="/games"> <button className="loginInfo">Login</button> </Link>
 
     </div>
     
     
 
 
-    <AboutUs/>
+   
     </div>
 
     </div>

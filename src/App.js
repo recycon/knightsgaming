@@ -2,7 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import AboutUs from './component/AboutUs';
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function App() {
@@ -11,7 +16,7 @@ function App() {
     
     <div className='dayz'>
       <div clasName='HomePage'>
-        <h3>Home</h3> 
+        <Link  to="/games"><h1>KnightsGame</h1> </Link>
       </div>
     <div className='register'>
       <h1 className='res'>Register</h1>
@@ -32,21 +37,18 @@ function App() {
         </div>
         
         <div className="RememberMe">
-          <h3>Remember Me</h3> 
-        <button class="RememberButton" type="checkbox" ></button>
+          
+        <Link to="/games"><button class="RememberButton" type="submit" >Register</button></Link>
+
+        <Link to="/login"><h3 className='New'>Already have a acount?</h3></Link>
         </div>
     
        
       </div>
-      <AboutUs/>
-      { /*src="/Pictures/test.jpg"*/}
+      
 
       
     </div>
-    <div className='AboutUsBox'>
-      </div>
-
-    
     
     </div>
   );

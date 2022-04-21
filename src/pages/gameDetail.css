@@ -25,14 +25,18 @@
         height: 100px;
         width: 600px;
         border-color: white;
-        background-color: aqua;
+        border-style: solid;
+  border-width: thin;
+  position: relative;
+        top:70px;
     }
 
     .CoverPhoto{
-        height: 250px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
         border-color: white;
-        background-color: aqua;
+        border-style: solid;
+  border-width: thin;
 
         font-family: 'Outfit';
         font-style: normal;
@@ -41,6 +45,9 @@
         line-height: 30px;
         text-align: center;
         color: #FFFFFF;
+        position: relative;
+        top:30px;
+
 
     }
 
@@ -51,7 +58,9 @@
         font-size: 24px;
         line-height: 30px;
         color: #FFFFFF;
-        background-color: aqua;
+        border-color: white;
+        border-style: solid;
+  border-width: thin;
         width: 400px;
         height: 400px;
 
@@ -67,17 +76,26 @@
     }
 
     .RelevantInfo{
-        height: 250px;
-        width: 150px;
+        height: 100px;
+        width: 700px;
         border-color: white;
-        background-color: aqua;
-
+        border-style: solid;
+  border-width: thin;
         font-family: 'Outfit';
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
         line-height: 30px;
         color: #FFFFFF;
+        margin: 100px;
+        position: relative;
+        bottom:30px;
+        right: 100px;
+    }
+
+    .KH{
+        color: gold;
+        text-align: center;
     }
 
     .Main{
